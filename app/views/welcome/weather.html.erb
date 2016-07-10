@@ -16,3 +16,22 @@
 <p>Current temperature in <%= @dortmund_full_location %> </p>
 <p> <%= @dortmund_current_temp %>F and feels like <%= @dortmund_feels_like %>F </p>
 </div>
+
+<%-# Mediterranean weather -%>
+<div id='left'>
+<%=image_tag("rome.jpg")%>
+<p>Current temperature in <%= @rome_full_location %> </p>
+<p> <%= @rome_current_temp %>F and feels like <%= @rome_feels_like %>F </p>
+</div>
+
+<div id='middle'>
+<%=image_tag("mykonos.jpg")%>
+<p>Current temperature in <%= @mykonos_full_location %> </p>
+<p> <%= @mykonos_current_temp %>F and feels like <%= @mykonos_feels_like %>F </p>
+</div>
+
+<div id='right'>
+<%=image_tag("barcelona.jpg")%>
+<p>Current temperature in <%= @barcelona_full_location %> </p>
+<p> <%= @barcelona_current_temp %>F and feels like <%= @barcelona_feels_like %>F </p>
+</div>
