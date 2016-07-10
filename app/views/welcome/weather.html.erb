@@ -1,1 +1,18 @@
-Current temperature in <%= @full_location %> is: <%= @current_temp %>F and feels like <%= @feels_like %>F
+<%-# Germany weather -%>
+<div id='left'>
+<%=image_tag("berlin.jpg")%>
+<p>Current temperature in <%= @berlin_full_location %> </p>
+<p> <%= @berlin_current_temp %>F and feels like <%= @berlin_feels_like %>F </p>
+</div>
+
+<div id='middle'>
+<%=image_tag("munich.jpg")%>
+<p>Current temperature in <%= @munich_full_location %> </p>
+<p> <%= @munich_current_temp %>F and feels like <%= @munich_feels_like %>F </p>
+</div>
+
+<div id='right'>
+<%=image_tag("dortmund.jpg")%>
+<p>Current temperature in <%= @dortmund_full_location %> </p>
+<p> <%= @dortmund_current_temp %>F and feels like <%= @dortmund_feels_like %>F </p>
+</div>
