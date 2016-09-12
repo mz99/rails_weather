@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
 
-#index call
+#look into index api call to combine multiple api endpoints calls into one call
   def weather
     require 'open-uri'
     parsed_json = get_weather_data("Germany/Berlin")
